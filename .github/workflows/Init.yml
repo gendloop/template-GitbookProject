@@ -39,8 +39,14 @@ jobs:
           token: ${{ github.token }}
           path-to-replace: 'book.json'
           replace-to-path: 'book.json'
-          str-to-replace: 'REPO'
+          str-to-replace: 'template-GitbookProject'
           replace-to-str: ${{ steps.get-repo-name.outputs.reponame }}
+
+      - name: clear-intro
+        working-directory: ${{ github.workspace }}
+        shell: bash
+        run: |
+          echo "" > INTRO.md
 
       - name: remove-useless
         working-directory: ${{ github.workspace }}
@@ -66,4 +72,4 @@ jobs:
         uses: gendloop/git-push@v1.0.0
         with:
           token: ${{ github.token }}
-          commit: "chore: update files"
+          commit: "chore: init project"

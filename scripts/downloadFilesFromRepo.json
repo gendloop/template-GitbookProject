@@ -2,20 +2,6 @@
     "datas":[
         {
             "files": [
-                "Git/Git_Push.bat",
-                "Git/Git_PushDirectly.bat",
-                "Git/Git_Tag.bat",
-                "Git/Git_Delete_Tag.bat"
-            ],
-            "local_dir": ".",
-            "user": "gendloop",
-            "repo": "Tools",
-            "branch": "main",
-            "is_private": true,
-            "token": ""
-        },
-        {
-            "files": [
                 ".github/workflows/Release_Version.yml"
             ],
             "local_dir": "../.github/workflows",
@@ -53,29 +39,6 @@
                 "Standardization/.markdownlint.json"
             ],
             "local_dir": "..",
-            "user": "gendloop",
-            "repo": "Tools",
-            "branch": "main",
-            "is_private": true,
-            "token": ""
-        },
-        {
-            "files": [
-                "Gitbook/package.json",
-                "Gitbook/book.json"
-            ],
-            "local_dir": "..",
-            "user": "gendloop",
-            "repo": "Tools",
-            "branch": "main",
-            "is_private": true,
-            "token": ""
-        },
-        {
-            "files": [
-                "Gitbook/Gitbook_Deploy.yml"
-            ],
-            "local_dir": "../.github/workflows",
             "user": "gendloop",
             "repo": "Tools",
             "branch": "main",
