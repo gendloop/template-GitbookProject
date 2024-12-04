@@ -1,6 +1,10 @@
 # template-GitbookProject
 用于创建 Gitbook 项目仓库
 
+## Sample
+
+访问 https://gendloop.github.io/template-GitbookProject/
+
 ## Usage
 
 1. 点击右上角的 `Use this template` 
