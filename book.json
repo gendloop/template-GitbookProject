@@ -120,7 +120,7 @@
             "url": "https://github.com/gendloop/template-GitbookProject"
         },
         "github-buttons": {
-            "template-GitbookProject": "gendloop/template-GitbookProject",
+            "repo": "gendloop/template-GitbookProject",
             "types": [
             ],
             "size": "small"
