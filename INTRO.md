@@ -4,5 +4,6 @@
 
 已应用的样例项目有:
 
-- [AlgorithmPractice](https://github.com/gendloop/AlgorithmPractice) 
-- [Notations](https://github.com/gendloop/Notations) 
+- [GitBookPlugins](https://github.com/gendloop/GitBookPlugins)
+- [AlgorithmPractice](https://github.com/gendloop/AlgorithmPractice)
+- [Notations](https://github.com/gendloop/Notations)
