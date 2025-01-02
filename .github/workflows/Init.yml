@@ -33,6 +33,15 @@ jobs:
           str-to-replace: 'REPO'
           replace-to-str: ${{ steps.get-repo-name.outputs.reponame }}
 
+      - name: replace-README_zh
+        uses: gendloop/replace-str@v1.0.1
+        with:
+          token: ${{ github.token }}
+          path-to-replace: 'docs/README_zh.md'
+          replace-to-path: 'README_zh.md'
+          str-to-replace: 'REPO'
+          replace-to-str: ${{ steps.get-repo-name.outputs.reponame }}
+
       - name: replace-book.json-repo
         uses: gendloop/replace-str@v1.0.1
         with:

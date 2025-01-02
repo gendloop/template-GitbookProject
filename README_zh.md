@@ -1,6 +1,6 @@
 # template-GitbookProject
 
-<h4 align="right"><a href="https://github.com/gendloop/template-GitbookProject?tab=readme-ov-file#readme">English</a> | <strong>Chinese</strong></h4>
+<h4 align="right"><a href="https://github.com/gendloop/template-GitbookProject?tab=readme-ov-file#readme">en</a> | <strong>zh</strong></h4>
 
 用于创建 Gitbook 项目仓库.
 

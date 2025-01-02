@@ -1,6 +1,6 @@
 # template-GitbookProject
 
-<h4 align="right"><strong>English</strong> | <a href="https://github.com/gendloop/template-GitbookProject/blob/main/README_zh.md">Chinese</a></h4>
+<h4 align="right"><strong>en</strong> | <a href="https://github.com/gendloop/template-GitbookProject/blob/main/README_zh.md">zh</a></h4>
 
 Used for creating Gitbook project repositories.
 
