@@ -1,18 +1,22 @@
 # template-GitbookProject
-用于创建 Gitbook 项目仓库
+
+<h4 align="right"><strong>English</strong> | <a href="https://github.com/gendloop/template-GitbookProject/blob/main/README_zh.md">Chinese</a></h4>
+
+Used for creating Gitbook project repositories.
 
 ## Sample
 
-访问 https://gendloop.github.io/template-GitbookProject/
+Visit [https://gendloop.github.io/template-GitbookProject/](https://gendloop.github.io/template-GitbookProject/).
 
 ## Usage
 
-1. 点击右上角的 `Use this template` 
-2. 等待新项目的 `Init` 工作流完成
-3. 此时 `Actions/Gitbook_Deploy` 下的 `Job/deploy ` 会报错, 别担心, 继续下面步骤
-4. 点击项目的 `Settings` => `Pages` => `Build and deployment` 中将 Source 改为 `GitHub Actions` 
-5. 重新运行 `deploy`, 即可成功
-6. 根据个人账号等修改配置文件 `book.json` 
+1. Click on `Use this template` in the top right corner.
+2. Wait for the `Init` workflow of the new project to complete.
+3. At this point, the `Job/deploy` under `Actions/Gitbook_Deploy` may report an error, don't worry, continue with the following steps.
+4. Click on the project's `Settings` => `Pages` => Change Source to `GitHub Actions` under `Build and deployment`.
+5. Rerun `deploy`, and it should succeed.
+6. Modify the configuration file `book.json` according to personal accounts, etc.
+7. After making a modification, the website content will be refreshed.
 
 ## References
 
