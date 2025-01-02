@@ -33,7 +33,7 @@ jobs:
           str-to-replace: 'REPO'
           replace-to-str: ${{ steps.get-repo-name.outputs.reponame }}
 
-      - name: replace-book.json
+      - name: replace-book.json-repo
         uses: gendloop/replace-str@v1.0.1
         with:
           token: ${{ github.token }}
@@ -42,11 +42,29 @@ jobs:
           str-to-replace: 'template-GitbookProject'
           replace-to-str: ${{ steps.get-repo-name.outputs.reponame }}
 
+      - name: replace-book.json-author
+        uses: gendloop/replace-str@v1.0.1
+        with:
+          token: ${{ github.token }}
+          path-to-replace: 'book.json'
+          replace-to-path: 'book.json'
+          str-to-replace: 'gendloop'
+          replace-to-str: ${{ github.actor }}
+
+      - name: replace-book.json-token
+        uses: gendloop/replace-str@v1.0.1
+        with:
+          token: ${{ github.token }}
+          path-to-replace: 'book.json'
+          replace-to-path: 'book.json'
+          str-to-replace: 'ab48cc3bf9dab9fbecc9fb216b38b778'
+          replace-to-str: '3-ba-your-token'
+
       - name: clear-intro
         working-directory: ${{ github.workspace }}
         shell: bash
         run: |
-          echo "" > INTRO.md
+          echo "# Intro" > INTRO.md
 
       - name: remove-useless
         working-directory: ${{ github.workspace }}
