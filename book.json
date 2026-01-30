@@ -8,11 +8,6 @@
     "structure": {
         "readme": "INTRO.md"
     },
-    "links": {
-        "sidebar": {
-            "GitHub": "https://github.com/gendloop/template-GitbookProject"
-        }
-    },
     "pdf": {
         "toc": true,
         "pageNumbers": true,
@@ -66,37 +61,6 @@
         "sidebar-style": {
             "title": "template-GitbookProject",
             "author": "gendloop"
-        },
-        "sharing": {
-            "douban": false,
-            "facebook": false,
-            "google": false,
-            "hatenaBookmark": false,
-            "instapaper": false,
-            "line": false,
-            "linkedin": false,
-            "messenger": false,
-            "pocket": false,
-            "qq": false,
-            "qzone": false,
-            "stumbleupon": false,
-            "twitter": false,
-            "viber": false,
-            "vk": false,
-            "weibo": false,
-            "whatsapp": false,
-            "all": [
-                "facebook",
-                "google",
-                "twitter",
-                "weibo",
-                "instapaper",
-                "linkedin",
-                "pocket",
-                "stumbleupon",
-                "qq",
-                "qzone"
-            ]
         },
         "anchor-navigation-ex": {
             "showLevel": true,
