@@ -7,3 +7,4 @@
 - [GitBookPlugins](https://github.com/gendloop/GitBookPlugins)
 - [AlgorithmPractice](https://github.com/gendloop/AlgorithmPractice)
 - [Notations](https://github.com/gendloop/Notations)
+- [DealHunter](https://github.com/gendloop/DealHunter)
