@@ -7,6 +7,7 @@ on:
     paths:
       - 'assets/**'
       - 'contents/**'
+      - 'docs/**'
       - 'INTRO.md'
       - 'SUMMARY.md'
       - 'GLOSSARY.md'
